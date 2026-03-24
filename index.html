@@ -9,30 +9,14 @@
 body {
     margin: 0;
     font-family: 'Segoe UI', sans-serif;
-    background: #0b0b0b;
-    color: #f2f2f2;
-    line-height: 1.6;
-}
-
-nav {
-    position: fixed;
-    width: 100%;
-    background: rgba(0,0,0,0.8);
-    padding: 10px;
-    text-align: center;
-}
-
-nav a {
-    color: #e6b800;
-    margin: 0 15px;
-    text-decoration: none;
-    font-weight: bold;
+    background: #0a0a0a;
+    color: white;
 }
 
 header {
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.95)),
-    url('https://images.unsplash.com/photo-1511379938547-c1f69419868d');
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.9)),
+    url('https://images.unsplash.com/photo-1513885535751-8b9238bd345a');
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -41,7 +25,8 @@ header {
 }
 
 header h1 {
-    font-size: 55px;
+    font-size: 60px;
+    letter-spacing: 3px;
 }
 
 header p {
@@ -51,20 +36,19 @@ header p {
 
 section {
     padding: 80px 20px;
-    max-width: 1100px;
+    max-width: 1000px;
     margin: auto;
 }
 
 h2 {
-    color: #e6b800;
-    margin-bottom: 20px;
+    color: gold;
 }
 
 .card {
     background: #1a1a1a;
-    padding: 20px;
-    border-radius: 10px;
-    margin-bottom: 20px;
+    padding: 25px;
+    margin: 20px 0;
+    border-radius: 12px;
 }
 
 .gallery {
@@ -78,80 +62,67 @@ h2 {
     border-radius: 10px;
 }
 
+iframe {
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+}
+
+audio {
+    width: 100%;
+    margin-top: 15px;
+}
+
 footer {
-    background: black;
     text-align: center;
     padding: 20px;
+    background: black;
 }
 </style>
 </head>
 
 <body>
 
-<nav>
-    <a href="#about">About</a>
-    <a href="#experience">Experience</a>
-    <a href="#projects">Projects</a>
-    <a href="#events">Events</a>
-    <a href="#contact">Contact</a>
-</nav>
-
 <header>
     <div>
         <h1>Balamurali KS</h1>
-        <p>Violinist | Sound Engineer | Performer</p>
+        <p>Violinist • Performer • Sound Engineer</p>
     </div>
 </header>
 
-<section id="about">
+<section>
     <h2>About</h2>
     <div class="card">
-        Classically trained violinist with extensive experience in chamber music, orchestral works, 
-        concerts, and teaching. Worked as Eastern Violin Instructor for 9 years at Music Hope Academy. 
-        25+ years of experience in film industry and live stage performances.
+        25+ years of experience as a violinist and sound engineer in film industry, concerts, and teaching. 
+        Worked with leading Malayalam music directors and performed in India and abroad.
     </div>
 </section>
 
-<section id="experience">
-    <h2>Experience</h2>
-
+<section>
+    <h2>Music</h2>
     <div class="card">
-        <h3>Violinist</h3>
-        • 25 years in Carnatic music and concerts<br>
-        • 20 years teaching experience<br>
-        • Performed in concerts and community events<br>
-        • Worked with film industry personalities<br>
-        • Composer and performer in albums
-    </div>
-
-    <div class="card">
-        <h3>Sound Engineer</h3>
-        • 15 years at CSDB Audio Station, Kochi<br>
-        • Worked on films: Drishyam, Salt & Pepper, Pokkiri Raja<br>
-        • Recording, mixing, and production<br>
-        • Worked on albums, devotional songs & short films
+        🎵 Sample Performance
+        <audio controls>
+            <source src="your-music-file.mp3" type="audio/mpeg">
+        </audio>
     </div>
 </section>
 
-<section id="projects">
-    <h2>Projects & Works</h2>
+<section>
+    <h2>Live Performance</h2>
+    <iframe src="https://www.youtube.com/embed/5tKiYE9lN_Y"></iframe>
+</section>
+
+<section>
+    <h2>Gallery</h2>
     <div class="gallery">
         <img src="https://images.unsplash.com/photo-1507838153414-b4b713384a76">
         <img src="https://images.unsplash.com/photo-1464375117522-1311dd6c0b3b">
-        <img src="https://images.unsplash.com/photo-1513885535751-8b9238bd345a">
         <img src="https://images.unsplash.com/photo-1504805572947-34fad45aed93">
     </div>
 </section>
 
-<section id="events">
-    <h2>Events</h2>
-    <div class="card">
-        🎻 Violin concert at Doha with MG Sreekumar<br><br>
-        🎻 Al Khobar Gala Night performance
-    </div>
-</section>
-
-<section id="contact">
+<section>
     <h2>Contact</h2>
     <div class="card">
         📧 baluviolin9166@gmail.com<br>
